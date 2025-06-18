@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section-one {
+    background-color: black;
+    text-align: center;
+}
+
+.section-one__name {
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.section-one__home,
+.section-one__recipe,
+.section-one__contact {
+    display: inline-block;
+    color: gray;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.section-two {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section-two__1,
+.section-two__2,
+.section-two__3,
+.section-two__4 {
+    border: solid 1px black;
+    margin-top: 10px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+.section-two__1__img,
+.section-two__2__img,
+.section-two__3__img,
+.section-two__4__img {
+    height: 400px;
+    width: 200px;
+
+}
+
+.section-two__1__butt,
+.section-two__2__butt,
+.section-two__3__butt,
+.section-two__4__butt {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.section-three {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.section-three__title {
+    padding-top: 10px;
+}
+
+.section-three__table {
+    color: aliceblue;
+    padding: 5px;
+    border: 5px;
+    text-align: center;
+}
+
+.section-three__butt {
+    background-color: rgb(253, 232, 41);
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.section-three__table__1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+}
